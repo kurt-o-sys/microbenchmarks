@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93d38050-94c3-459b-b583-329b06ef00b1" name="Default" comment="" />
+    <ignored path="microbenchmarks.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="microbenchmarks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="factoidSerialize" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="3" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.24193548" vertical-offset="30" max-vertical-offset="153525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summarySerialize" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/summarySerialize">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="62" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/MyBenchmark.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/Benchmarker.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/MapperHolder.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/ExternalizableInput.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidArray.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JacksonHelper.java" />
+        <option value="$PROJECT_DIR$/javaserialization/pom.xml" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/Factoid.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidExtJson.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidExtJsonArraySmile.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidExtJsonSmile.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidJson.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidJsonArray.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FactoidSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkFactoidSerialization.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/OptionsBuilder.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/Factoid.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFST.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidJsonArray.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonSmile.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJson.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonArraySmile.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidJson.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/JsonMapper.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/ExternalizableInput.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/JacksonHelper.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/ExternalizableOutput.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSmileSerializable.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSmileSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySerializable.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonArray.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySmileSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFSTCompressed.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JavaSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArrayExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySmileExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSmileExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/ObjectExternalize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FastCompressSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FastSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/RunBenchmarks.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkSerialize.java" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/results/summarySerialize" />
+        <option value="$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="microbenchmarks" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="microbenchmarks" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="install" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="microbenchmarks" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="deploy" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="microbenchmarks" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="clean" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="microbenchmarks" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Auto-generated JMH benchmark" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Auto-generated JMH benchmark" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Auto-generated JMH benchmark" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jar" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Auto-generated JMH benchmark" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="737" />
+    <option name="y" value="19" />
+    <option name="width" value="1181" />
+    <option name="height" value="1059" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaserialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="microbenchmarks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="microbenchmarks" />
+      <recent name="microbenchmarks.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ObjectExternalize">
+    <configuration default="false" name="JsonExternalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microbenchmarks.JsonExternalize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaserialization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microbenchmarks.JsonSerialize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaserialization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonSmileExternalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microbenchmarks.JsonSmileExternalize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaserialization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonSmileSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microbenchmarks.JsonSmileSerialize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaserialization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ObjectExternalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microbenchmarks.ObjectExternalize" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaserialization" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.JsonExternalize" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JsonSerialize" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JsonSmileExternalize" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JsonSmileSerialize" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ObjectExternalize" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ObjectExternalize" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JsonSmileSerialize" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JsonSmileExternalize" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JsonSerialize" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JsonExternalize" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93d38050-94c3-459b-b583-329b06ef00b1" name="Default" comment="" />
+      <created>1403422281024</created>
+      <updated>1403422281024</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="737" y="19" width="1181" height="1059" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34363958" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37752414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997934" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/summarySerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/RunBenchmarks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7030" column="53" selection-start="515530" selection-end="515530" vertical-scroll-proportion="0.0" vertical-offset="103875" max-vertical-offset="153300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonSmile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidJsonArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="26" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="1845">
+          <folding>
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="3" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0" vertical-offset="1725" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="30" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="20" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="30" selection-start="2779" selection-end="2779" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="20" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/0.9/jmh-core-0.9.jar!/org/openjdk/jmh/annotations/Mode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="232" selection-end="232" vertical-scroll-proportion="0.15410958" vertical-offset="0" max-vertical-offset="584" />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="19" selection-start="9576" selection-end="9576" vertical-scroll-proportion="-0.35775128" vertical-offset="2010" max-vertical-offset="19185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-smile/1.9.13/jackson-smile-1.9.13.jar!/org/codehaus/jackson/smile/SmileFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.13345195" vertical-offset="0" max-vertical-offset="1050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="21" selection-start="2800" selection-end="2800" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.4.0/jackson-dataformat-smile-2.4.0.jar!/com/fasterxml/jackson/dataformat/smile/SmileFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="10" selection-start="634" selection-end="634" vertical-scroll-proportion="0.38745388" vertical-offset="0" max-vertical-offset="1335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/ExternalizableInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="97" selection-end="97" vertical-scroll-proportion="0.175" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/ExternalizableOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="66" selection-end="66" vertical-scroll-proportion="0.1" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonSmile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="3" selection-start="735" selection-end="735" vertical-scroll-proportion="0.6626298" vertical-offset="172" max-vertical-offset="840">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="9" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JavaSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="9" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArrayExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySmileSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="62" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySmileExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="9" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSmileExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="9" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="855">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSmileSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="967" selection-end="967" vertical-scroll-proportion="0.81166667" vertical-offset="188" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="426" selection-end="426" vertical-scroll-proportion="0.013840831" vertical-offset="307" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="6" selection-start="822" selection-end="822" vertical-scroll-proportion="0.625" vertical-offset="225" max-vertical-offset="825">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="22" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.63826364" vertical-offset="203" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidExtJsonArraySmile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="3" selection-start="916" selection-end="916" vertical-scroll-proportion="0.5418006" vertical-offset="233" max-vertical-offset="855">
+          <folding>
+            <element signature="e#887#888#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidFSTCompressed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="460" selection-end="460" vertical-scroll-proportion="0.42122185" vertical-offset="113" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.6141479" vertical-offset="83" max-vertical-offset="705">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidJsonArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="3" selection-start="847" selection-end="847" vertical-scroll-proportion="0.79238755" vertical-offset="82" max-vertical-offset="660">
+          <folding>
+            <element signature="e#818#819#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/FactoidSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/model/JsonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.175" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FastCompressSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="47" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/FastSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="1005">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/ObjectExternalize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="13" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="810">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/RunBenchmarks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="20" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonArraySerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="237" selection-end="237" vertical-scroll-proportion="0.024115756" vertical-offset="90" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/JsonSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="197" selection-end="197" vertical-scroll-proportion="0.024115756" vertical-offset="60" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkSerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="922" selection-end="922" vertical-scroll-proportion="0.48675495" vertical-offset="99" max-vertical-offset="1005">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/summarySerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="62" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/results/factoidSerialize">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.24193548" vertical-offset="30" max-vertical-offset="153525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
