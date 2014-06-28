@@ -16,8 +16,8 @@ public class FastSerialize
 
    private FSTConfiguration fstConf = FSTConfiguration.createDefaultConfiguration();
 
-   private microbenchmarks.stringEntity.model.FactoidFST factoid
-         = new microbenchmarks.stringEntity.model.FactoidFST(entity, attribute, value);
+   private microbenchmarks.model.FactoidFST factoid
+         = new microbenchmarks.model.FactoidFST(entity, attribute, value);
 
    public FastSerialize() {
       super(FastSerialize.class);
@@ -30,7 +30,7 @@ public class FastSerialize
 
    @Setup(Level.Iteration)
    public void prepare() {
-      fstConf.registerClass(microbenchmarks.stringEntity.model.FactoidFST.class, Instant.class);
+      fstConf.registerClass(microbenchmarks.model.FactoidFST.class, Instant.class);
    }
 
 
@@ -40,7 +40,7 @@ public class FastSerialize
       FSTObjectOutput fstOut = fstConf.getObjectOutput(localOutputStream);
       try
       {
-         fstOut.writeObject(factoid, microbenchmarks.stringEntity.model.FactoidFST.class);
+         fstOut.writeObject(factoid, microbenchmarks.model.FactoidFST.class);
          fstOut.flush();
          localOutputStream.close();
       } catch (IOException e)
