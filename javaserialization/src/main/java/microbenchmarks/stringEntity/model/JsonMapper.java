@@ -1,4 +1,4 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.dataformat.smile.*;

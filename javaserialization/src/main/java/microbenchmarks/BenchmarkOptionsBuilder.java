@@ -1,6 +1,7 @@
 package microbenchmarks;
 
 import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.results.format.*;
 import org.openjdk.jmh.runner.options.*;
 
 import java.util.concurrent.*;
@@ -30,8 +31,10 @@ public class BenchmarkOptionsBuilder {
             .mode(Mode.All)
             .timeUnit(TimeUnit.MICROSECONDS)
             .warmupIterations(10)
-            .measurementIterations(10)
+            .measurementIterations(20)
             .forks(5)
+            .resultFormat(ResultFormatType.JSON)
+            .result("src/main/results/results.json")
             .build();
    }
 }

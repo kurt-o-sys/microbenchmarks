@@ -1,3 +1,5 @@
+library(Hmisc)
+
 errbar(benchmark$size, benchmark$"average time(us/op)", 
        benchmark$"average time(us/op)"+1.96*benchmark$"err average time",
        benchmark$"average time(us/op)"-1.96*benchmark$"err average time",

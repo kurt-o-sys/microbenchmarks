@@ -1,4 +1,6 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
+
+import de.ruedigermoeller.serialization.annotations.*;
 
 import java.io.*;
 import java.time.*;
@@ -6,25 +8,28 @@ import java.time.*;
 /**
  * Created by kurt on 22/06/14.
  */
-public class FactoidSerialize
+@Flat
+@Predict(FactoidFST.class)
+public final class FactoidFST
       implements Serializable
 {
 
-
    protected long entity;
 
-   protected long attribute;
+   protected String attribute;
 
+   @Flat
    protected String value;
 
+   @Predict(Instant.class)
    protected Instant timestamp;
 
 
-   public FactoidSerialize(long entity, long attribute, String value) {
+   public FactoidFST(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
-      timestamp = Instant.now();
+      this.timestamp = Instant.now();
    }
 
 
@@ -32,7 +37,7 @@ public class FactoidSerialize
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 
@@ -43,4 +48,6 @@ public class FactoidSerialize
    public Instant getTimestamp() {
       return timestamp;
    }
+
 }
+

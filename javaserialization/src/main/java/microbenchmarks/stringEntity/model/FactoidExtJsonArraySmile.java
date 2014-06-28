@@ -1,4 +1,4 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat.*;
@@ -17,14 +17,14 @@ public class FactoidExtJsonArraySmile
 
    protected long entity;
 
-   protected long attribute;
+   protected String attribute;
 
    protected String value;
 
    protected Instant timestamp;
 
 
-   public FactoidExtJsonArraySmile(long entity, long attribute, String value) {
+   public FactoidExtJsonArraySmile(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
@@ -36,7 +36,7 @@ public class FactoidExtJsonArraySmile
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 

@@ -1,5 +1,6 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
+import microbenchmarks.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -10,7 +11,7 @@ public abstract class BenchmarkSerialize {
 
    protected long entity = 23571117L;
 
-   protected long attribute = 19232931L;
+   protected String attribute = "attribute:name";
 
    protected String value = "some value of some attribute of some entity of some factoid";
 

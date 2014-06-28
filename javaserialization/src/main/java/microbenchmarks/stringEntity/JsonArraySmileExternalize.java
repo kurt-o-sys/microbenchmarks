@@ -1,6 +1,6 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
-import microbenchmarks.model.*;
+import microbenchmarks.stringEntity.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 

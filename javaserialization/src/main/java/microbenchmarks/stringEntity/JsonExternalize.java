@@ -1,6 +1,5 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -9,19 +8,21 @@ import java.io.*;
 /**
  * Created by kurt on 22/06/14.
  */
-public class JsonSmileExternalize extends BenchmarkSerialize {
+public class JsonExternalize
+      extends BenchmarkSerialize
+{
 
-   public JsonSmileExternalize() {
-      super(JsonSmileExternalize.class);
+   public JsonExternalize() {
+      super(JsonExternalize.class);
 
    }
 
-   private JsonSmileExternalize(Class benchmarkClass) {
+   private JsonExternalize(Class benchmarkClass) {
       super(benchmarkClass);
    }
 
-   private FactoidExtJsonSmile factoid
-         = new FactoidExtJsonSmile(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidExtJson factoid
+         = new microbenchmarks.stringEntity.model.FactoidExtJson(entity, attribute, value);
 
 
    @Benchmark
@@ -44,7 +45,7 @@ public class JsonSmileExternalize extends BenchmarkSerialize {
 
 
    public static void main(String[] args) throws RunnerException {
-      BenchmarkSerialize bs = new JsonSmileExternalize(JsonSmileExternalize.class);
+      BenchmarkSerialize bs = new JsonExternalize(JsonExternalize.class);
       bs.runBenchmark();
    }
 

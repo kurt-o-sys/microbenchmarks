@@ -1,27 +1,29 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat.*;
 
+import java.io.*;
 import java.time.*;
 
 /**
  * Created by kurt on 22/06/14.
  */
-@JsonFormat(shape = Shape.ARRAY)
-@JsonPropertyOrder(alphabetic = true)
-public class FactoidJsonArray
+@JsonFormat(shape = Shape.OBJECT)
+public final class FactoidJson
+      implements Serializable
 {
- protected long entity;
 
-   protected long attribute;
+   protected long entity;
+
+   protected String attribute;
 
    protected String value;
 
    protected Instant timestamp;
 
 
-   public FactoidJsonArray(long entity, long attribute, String value) {
+   public FactoidJson(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
@@ -33,7 +35,7 @@ public class FactoidJsonArray
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 

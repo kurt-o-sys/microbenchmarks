@@ -1,4 +1,4 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import java.io.*;
 

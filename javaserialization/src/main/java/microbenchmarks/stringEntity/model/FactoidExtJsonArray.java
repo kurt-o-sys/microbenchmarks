@@ -1,4 +1,7 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
+
+import com.fasterxml.jackson.annotation.*;
+import com.fasterxml.jackson.annotation.JsonFormat.*;
 
 import java.io.*;
 import java.time.*;
@@ -6,23 +9,26 @@ import java.time.*;
 /**
  * Created by kurt on 22/06/14.
  */
-public final class FactoidExternalize
+@JsonFormat(shape = Shape.ARRAY)
+@JsonPropertyOrder(alphabetic = true)
+public class FactoidExtJsonArray
       implements Externalizable
 {
 
    protected long entity;
 
-   protected long attribute;
+   protected String attribute;
 
    protected String value;
 
    protected Instant timestamp;
 
-   public FactoidExternalize(long entity, long attribute, String value) {
+
+   public FactoidExtJsonArray(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
-      this.timestamp = Instant.now();
+      timestamp = Instant.now();
    }
 
 
@@ -30,7 +36,7 @@ public final class FactoidExternalize
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 
@@ -42,21 +48,14 @@ public final class FactoidExternalize
       return timestamp;
    }
 
-
    @Override
    public void writeExternal(ObjectOutput out) throws IOException {
-      out.writeLong(entity);
-      out.writeLong(attribute);
-      out.writeObject(value);
-      out.writeObject(timestamp);
+      JsonMapper.mapper().writeValue(new ExternalizableOutput(out), this);
 
    }
 
    @Override
    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-      entity = in.readLong();
-      attribute = in.readLong();
-      value = (String) in.readObject();
-      timestamp = (Instant) in.readObject();
+      JsonMapper.mapper().readerForUpdating(this).readValue(new ExternalizableInput(in));
    }
 }

@@ -1,7 +1,6 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
 import de.ruedigermoeller.serialization.*;
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -17,8 +16,8 @@ public class FastCompressSerialize
 
    private FSTConfiguration fstConf = FSTConfiguration.createDefaultConfiguration();
 
-   private FactoidFSTCompressed factoid
-         = new FactoidFSTCompressed(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidFSTCompressed factoid
+         = new microbenchmarks.stringEntity.model.FactoidFSTCompressed(entity, attribute, value);
 
 
    public FastCompressSerialize() {
@@ -32,7 +31,7 @@ public class FastCompressSerialize
 
    @Setup(Level.Iteration)
    public void prepare() {
-      fstConf.registerClass(FactoidFSTCompressed.class, Instant.class);
+      fstConf.registerClass(microbenchmarks.stringEntity.model.FactoidFSTCompressed.class, Instant.class);
    }
 
    @Benchmark
@@ -41,7 +40,7 @@ public class FastCompressSerialize
       FSTObjectOutput fstOut = fstConf.getObjectOutput(localOutputStream);
       try
       {
-         fstOut.writeObject(factoid, FactoidFSTCompressed.class);
+         fstOut.writeObject(factoid, microbenchmarks.stringEntity.model.FactoidFSTCompressed.class);
          fstOut.flush();
          localOutputStream.close();
       } catch (IOException e)

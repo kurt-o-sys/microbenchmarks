@@ -1,29 +1,23 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
 import java.io.*;
 
-/**
- * Created by kurt on 22/06/14.
- */
-public class JsonExternalize
-      extends BenchmarkSerialize
-{
+public class ObjectExternalize extends BenchmarkSerialize {
 
-   public JsonExternalize() {
-      super(JsonExternalize.class);
+   public ObjectExternalize() {
+      super(ObjectExternalize.class);
 
    }
 
-   private JsonExternalize(Class benchmarkClass) {
+   private ObjectExternalize(Class benchmarkClass) {
       super(benchmarkClass);
    }
 
-   private FactoidExtJson factoid
-         = new FactoidExtJson(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidExternalize factoid
+         = new microbenchmarks.stringEntity.model.FactoidExternalize(entity, attribute, value);
 
 
    @Benchmark
@@ -46,7 +40,7 @@ public class JsonExternalize
 
 
    public static void main(String[] args) throws RunnerException {
-      BenchmarkSerialize bs = new JsonExternalize(JsonExternalize.class);
+      BenchmarkSerialize bs = new ObjectExternalize(ObjectExternalize.class);
       bs.runBenchmark();
    }
 

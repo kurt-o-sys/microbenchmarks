@@ -1,4 +1,4 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import de.ruedigermoeller.serialization.annotations.*;
 
@@ -16,7 +16,7 @@ public final class FactoidFSTCompressed
 
    protected long entity;
 
-   protected long attribute;
+   protected String attribute;
 
    @Flat
    @Compress
@@ -26,7 +26,7 @@ public final class FactoidFSTCompressed
    protected Instant timestamp;
 
 
-   public FactoidFSTCompressed(long entity, long attribute, String value) {
+   public FactoidFSTCompressed(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
@@ -38,7 +38,7 @@ public final class FactoidFSTCompressed
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 

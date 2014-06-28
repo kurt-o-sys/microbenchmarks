@@ -1,4 +1,4 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import java.io.*;
 import java.time.*;
@@ -7,19 +7,20 @@ import java.time.*;
  * Created by kurt on 22/06/14.
  */
 
-public class FactoidExtJsonSmile
+public final class FactoidExtJson
       implements Externalizable
 {
- protected long entity;
 
-   protected long attribute;
+   protected long entity;
+
+   protected String attribute;
 
    protected String value;
 
    protected Instant timestamp;
 
 
-   public FactoidExtJsonSmile(long entity, long attribute, String value) {
+   public FactoidExtJson(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
@@ -31,7 +32,7 @@ public class FactoidExtJsonSmile
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 
@@ -43,14 +44,15 @@ public class FactoidExtJsonSmile
       return timestamp;
    }
 
+
    @Override
    public void writeExternal(ObjectOutput out) throws IOException {
-      JsonMapper.smileMapper().writeValue(new ExternalizableOutput(out), this);
+      JsonMapper.mapper().writeValue(new ExternalizableOutput(out), this);
 
    }
 
    @Override
    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-      JsonMapper.smileMapper().readerForUpdating(this).readValue(new ExternalizableInput(in));
+      JsonMapper.mapper().readerForUpdating(this).readValue(new ExternalizableInput(in));
    }
 }

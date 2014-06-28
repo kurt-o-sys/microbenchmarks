@@ -1,6 +1,5 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -19,8 +18,8 @@ public class JavaSerialize
       super(benchmarkClass);
    }
 
-   private FactoidSerialize factoid
-         = new FactoidSerialize(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidSerialize factoid
+         = new microbenchmarks.stringEntity.model.FactoidSerialize(entity, attribute, value);
 
 
    @Benchmark

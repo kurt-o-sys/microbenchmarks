@@ -1,6 +1,5 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -22,8 +21,8 @@ public class JsonArrayExternalize
       super(benchmarkClass);
    }
 
-   private FactoidExtJsonArray factoid
-         = new FactoidExtJsonArray(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidExtJsonArray factoid
+         = new microbenchmarks.stringEntity.model.FactoidExtJsonArray(entity, attribute, value);
 
 
    @Benchmark

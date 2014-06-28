@@ -1,9 +1,8 @@
-package microbenchmarks.model;
+package microbenchmarks.stringEntity.model;
 
 import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.annotation.JsonFormat.*;
 
-import java.io.*;
 import java.time.*;
 
 /**
@@ -11,20 +10,18 @@ import java.time.*;
  */
 @JsonFormat(shape = Shape.ARRAY)
 @JsonPropertyOrder(alphabetic = true)
-public class FactoidExtJsonArray
-      implements Externalizable
-{
+public class FactoidJsonArray {
 
    protected long entity;
 
-   protected long attribute;
+   protected String attribute;
 
    protected String value;
 
    protected Instant timestamp;
 
 
-   public FactoidExtJsonArray(long entity, long attribute, String value) {
+   public FactoidJsonArray(long entity, String attribute, String value) {
       this.entity = entity;
       this.attribute = attribute;
       this.value = value;
@@ -36,7 +33,7 @@ public class FactoidExtJsonArray
       return entity;
    }
 
-   public long getAttribute() {
+   public String getAttribute() {
       return attribute;
    }
 
@@ -46,16 +43,5 @@ public class FactoidExtJsonArray
 
    public Instant getTimestamp() {
       return timestamp;
-   }
-
-   @Override
-   public void writeExternal(ObjectOutput out) throws IOException {
-      JsonMapper.mapper().writeValue(new ExternalizableOutput(out), this);
-
-   }
-
-   @Override
-   public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-      JsonMapper.mapper().readerForUpdating(this).readValue(new ExternalizableInput(in));
    }
 }

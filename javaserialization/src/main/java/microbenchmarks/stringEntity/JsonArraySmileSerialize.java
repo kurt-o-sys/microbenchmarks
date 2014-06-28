@@ -1,7 +1,6 @@
-package microbenchmarks;
+package microbenchmarks.stringEntity;
 
 import com.fasterxml.jackson.core.*;
-import microbenchmarks.model.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.*;
 
@@ -21,15 +20,15 @@ public class JsonArraySmileSerialize
       super(benchmarkClass);
    }
 
-   private FactoidJsonArray factoid
-         = new FactoidJsonArray(entity, attribute, value);
+   private microbenchmarks.stringEntity.model.FactoidJsonArray factoid
+         = new microbenchmarks.stringEntity.model.FactoidJsonArray(entity, attribute, value);
 
 
    @Benchmark
    public byte[] benchmarkSerialize() {
       try
       {
-         return JsonMapper.smileMapper().writeValueAsBytes(factoid);
+         return microbenchmarks.stringEntity.model.JsonMapper.smileMapper().writeValueAsBytes(factoid);
       } catch (JsonProcessingException e)
       {
          e.printStackTrace();
