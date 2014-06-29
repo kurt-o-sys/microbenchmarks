@@ -34,7 +34,7 @@ public class BenchmarkOptionsBuilder {
             .measurementIterations(20)
             .forks(5)
             .resultFormat(ResultFormatType.JSON)
-            .result("src/main/results/results.json")
+            .result("results.json")
             .build();
    }
 }
