@@ -20,21 +20,22 @@ public class BenchmarkOptionsBuilder {
             .mode(Mode.AverageTime)
             .timeUnit(TimeUnit.MICROSECONDS)
             .warmupIterations(3)
-            .measurementIterations(2)
+            .measurementIterations(3)
             .forks(2)
             .build();
    }
 
-   public Options getOptions() {
+   public Options getOptions(int threads) {
       return new OptionsBuilder()
             .include(".*")
             .mode(Mode.All)
             .timeUnit(TimeUnit.MICROSECONDS)
             .warmupIterations(10)
-            .measurementIterations(20)
-            .forks(5)
+            .measurementIterations(10)
+            .forks(4)
+            .threads(threads)
             .resultFormat(ResultFormatType.JSON)
-            .result("results.json")
+            .result("results_" + threads + "t.json")
             .build();
    }
 }
