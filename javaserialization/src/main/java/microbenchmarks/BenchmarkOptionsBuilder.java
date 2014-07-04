@@ -36,6 +36,7 @@ public class BenchmarkOptionsBuilder {
             .threads(threads)
             .resultFormat(ResultFormatType.JSON)
             .result("results_" + threads + "t.json")
+            .output(null)
             .build();
    }
 }
