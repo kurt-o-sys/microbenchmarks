@@ -1,8 +1,11 @@
 library("rjson")
 
-setwd("/home/kurt/dev/microbenchmarks/javaserialization/src/main/results")
-jsondata<-fromJSON(file="results1.json")
 results<-data.frame()
+setwd("/home/kurt/dev/microbenchmarks/javaserialization/src/main/results")
+
+for (t in c(1,2,4)) {
+
+jsondata<-fromJSON(file=paste("results_",t,"t.json", sep=""))
 
 benchmarks<-c()
 for (i in 1:length(jsondata)) {
@@ -17,6 +20,7 @@ rm(benchmarks)
 for (i in 1:length(jsondata)) {
   item<-jsondata[[i]]
   benchmark<-factor(item$benchmark)
+  mode<-factor(item$mode)
   entity<-factor(ifelse(grepl("longEntity",item$benchmark), "long","string"))
   threads<-item$threads
   smile<-ifelse(grepl("[sS]mile",item$benchmark), TRUE,FALSE)
@@ -31,6 +35,7 @@ for (i in 1:length(jsondata)) {
     for(it in 1:length(item$primaryMetric$rawData[[fork]])) {
       row<-data.frame(
         benchmark=benchmark,
+        mode=mode,
         entity=entity,
         threads=threads,
         fork=fork,
@@ -48,24 +53,34 @@ for (i in 1:length(jsondata)) {
     }
   }
 }
-rm(sizes,array,row,benchmark,compress,entity,ext,fast,fork,i,it,item,json,size,smile,threads)
+rm(sizes,array,row,benchmark,mode,compress,entity,ext,fast,fork,i,it,item,json,size,smile,threads)
+}
+
+
+avgt<-results[results$mode=="avgt" & results$threads==1,]
+model<-metric~entity+fork+smile+array+json+ext+fast+compress+iteration+smile:array
+
+lm<-lm(model, data=avgt)
+lmbest<-stepAIC(lm, direction=c("both"))
+
+
+library(MASS)
+step<-1
+lambda<-seq(0,10,step)
+for (i in 1:10) {
+  lmridge<-lm.ridge(model, data=avgt, lambda=lambda)
+  valuemin<-lambda[which.min(unname(lmridge$GCV))]
+  lambda<-seq(valuemin-step, valuemin+step,step/5)
+  step<-step/5
+}
+lmridge<-lm.ridge(model, data=avgt, lambda=valuemin)
 
 
 
-library(Hmisc)
+library(lars)
+lars<-lars(cbind(avgt$entity,avgt$fork,avgt$smile,avgt$array,avgt$json,avgt$ext,avgt$fast,avgt$compress,avgt$iteration),avgt$metric, type=c("lar"), intercept=T)
+bestfit<-lars$Cp[which.min(unname(lars$Cp))]
+lmlars<-coef(lars)[bestfit,]
+names(lmlars)<-c("entity","fork","smile","array","json","ext","fast","compress","iteration")
 
-errbar(benchmark$size, benchmark$"average time(us/op)", 
-       benchmark$"average time(us/op)"+1.96*benchmark$"err average time",
-       benchmark$"average time(us/op)"-1.96*benchmark$"err average time",
-       xlab="size (bytes)", ylab="average time (us/op)",
-       xlim=c(50,275), ylim=c(0.4,2.25)) 
-text(benchmark$size, benchmark$"average time(us/op)", 
-     labels = row.names(benchmark), pos = 3, cex=0.62)
 
-errbar(benchmark$size, benchmark$"single shot time (us)", 
-       benchmark$"single shot time (us)"+benchmark$"err single shot time",
-       benchmark$"single shot time (us)"-benchmark$"err single shot time",
-       xlab="size (bytes)", ylab="single shot time (us) +/- sd",
-       xlim=c(50,275)) 
-text(benchmark$size, benchmark$"single shot time (us)",
-     labels = row.names(benchmark), pos = 3, cex=0.62)
