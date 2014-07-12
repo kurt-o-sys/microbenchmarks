@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="javaserialization" />
+        <module name="objectcreation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="javaserialization" target="1.6" />
+      <module name="objectcreation" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

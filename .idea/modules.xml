@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaserialization/javaserialization.iml" filepath="$PROJECT_DIR$/javaserialization/javaserialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/microbenchmarks.iml" filepath="$PROJECT_DIR$/microbenchmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objectcreation/objectcreation.iml" filepath="$PROJECT_DIR$/objectcreation/objectcreation.iml" />
     </modules>
   </component>
 </project>
