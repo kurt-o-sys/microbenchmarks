@@ -1,65 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93d38050-94c3-459b-b583-329b06ef00b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/BenchmarkOptionsBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/ExternalizableInput.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/ExternalizableInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/ExternalizableInput.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/ExternalizableInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJson.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJson.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonArray.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArray.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonArraySmile.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonArraySmile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArraySmile.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArraySmile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonSmile.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExtJsonSmile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonSmile.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonSmile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidFST.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidFST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidFST.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidFST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidFSTCompressed.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidFSTCompressed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidFSTCompressed.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidFSTCompressed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidJson.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidJson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidJson.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidJson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidJsonArray.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidJsonArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidJsonArray.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidJsonArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongBuilder.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongConstructor.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongSetters.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidLongSetters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/FactoidSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringBuilder.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringConstructor.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringConstructor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringSetters.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/FactoidStringSetters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/FastCompressSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/FastCompressSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/FastCompressSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/FastCompressSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/FastSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/FastSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/FastSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/FastSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArrayExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArrayExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArrayExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArrayExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySmileExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySmileExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySmileExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySmileExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySmileSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonArraySmileSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySmileSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonArraySmileSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/JsonMapper.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/model/JsonMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/JsonMapper.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/JsonMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonSmileExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonSmileExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonSmileExternalize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonSmileExternalize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonSmileSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity/JsonSmileSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonSmileSerialize.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/JsonSmileSerialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/RunBenchmarks.java" afterPath="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/RunBenchmarks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/RunBenchmarks.java" afterPath="$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/RunBenchmarks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/javaserialization.iml" afterPath="$PROJECT_DIR$/javaserialization/javaserialization.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="93d38050-94c3-459b-b583-329b06ef00b1" name="Default" comment="change author">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaserialization/src/main/results/avgt-size-1t.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/results/.RData" afterPath="$PROJECT_DIR$/javaserialization/src/main/results/.RData" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/results/.Rhistory" afterPath="$PROJECT_DIR$/javaserialization/src/main/results/.Rhistory" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/objectcreation.iml" afterPath="$PROJECT_DIR$/objectcreation/objectcreation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaserialization/src/main/results/plots.R" afterPath="$PROJECT_DIR$/javaserialization/src/main/results/plots.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectcreation/pom.xml" afterPath="$PROJECT_DIR$/objectcreation/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="objectcreation/target/" />
@@ -230,6 +177,20 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Auto-generated JMH benchmark" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -237,9 +198,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1132" />
+    <option name="x" value="548" />
     <option name="y" value="19" />
-    <option name="width" value="786" />
+    <option name="width" value="1364" />
     <option name="height" value="1059" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -314,7 +275,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,8 +293,71 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaserialization" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaserialization" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="results" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microbenchmarks" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaserialization" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -386,6 +409,7 @@
       <recent name="$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/longEntity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/objectcreation/src/main/results" />
       <recent name="$PROJECT_DIR$/javaserialization/src/main/results" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -716,7 +740,15 @@
       <created>1405146403486</created>
       <updated>1405146403486</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="change author">
+      <created>1405147542968</created>
+      <updated>1405147542968</updated>
+    </task>
+    <task id="LOCAL-00016" summary="results">
+      <created>1405158481477</created>
+      <updated>1405158481477</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -740,24 +772,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1132" y="19" width="786" height="1059" extended-state="0" />
+    <frame x="548" y="19" width="1364" height="1059" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747933" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32747933" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.641129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30991736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29954615" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30991736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35887095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30408472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,9 +796,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997934" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Kotlin" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297244" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -782,8 +814,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -799,7 +829,9 @@
     <MESSAGE value="check" />
     <MESSAGE value="delete targets" />
     <MESSAGE value="change author" />
-    <option name="LAST_COMMIT_MESSAGE" value="change author" />
+    <MESSAGE value="results" />
+    <MESSAGE value="add plots to data mining" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plots to data mining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -809,27 +841,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/ExternalizableInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="7" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/ExternalizableOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="4" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArraySmile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <caret line="48" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaserialization/src/main/java/microbenchmarks/stringEntity/model/FactoidExtJsonArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
@@ -1024,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1615509" vertical-offset="5" max-vertical-offset="630">
           <caret line="8" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="8" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,24 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="930">
           <caret line="21" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,15 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5638126" vertical-offset="191" max-vertical-offset="810">
           <caret line="45" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1123,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1500">
           <caret line="82" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="881" max-vertical-offset="1530">
           <caret line="91" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="945">
           <caret line="54" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,15 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07377049" vertical-offset="3825" max-vertical-offset="18015">
           <caret line="258" column="32" selection-start-line="258" selection-start-column="32" selection-end-line="258" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/RunBenchmarks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.820132" vertical-offset="1577" max-vertical-offset="2205">
           <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,15 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12376238" vertical-offset="0" max-vertical-offset="645">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/kurt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046801873" vertical-offset="0" max-vertical-offset="641">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,9 +1161,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56162244" vertical-offset="0" max-vertical-offset="641">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/java/microbenchmarks/RunBenchmarks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.093603745" vertical-offset="0" max-vertical-offset="641">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/results/results_8t.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/results/results_4t.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/results/results_2t.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectcreation/src/main/results/results_1t.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.283582" vertical-offset="4995" max-vertical-offset="34695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>

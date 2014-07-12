@@ -1,7 +1,7 @@
 library("rjson")
 
 results<-data.frame()
-setwd("/home/qsys/dev/microbenchmarks/javaserialization/src/main/results")
+setwd("/home/kurt/dev/microbenchmarks/javaserialization/src/main/results")
 
 for (t in c(1,2,4)) {
 
@@ -83,4 +83,29 @@ bestfit<-lars$Cp[which.min(unname(lars$Cp))]
 lmlars<-coef(lars)[bestfit,]
 names(lmlars)<-c("entity","fork","smile","array","json","ext","fast","compress","iteration")
 
+plotmode="avgt"
+plotylabel=expression(paste("avgt(",mu,"s)"))
+plotentity="long"
 
+avgt<-results[results$mode==plotmode,]
+
+avgt.longx<-with (avgt[avgt$entity==plotentity,], tapply(size,benchmark,mean))
+avgt.longy<-with (avgt[avgt$entity==plotentity,], tapply(metric,benchmark,mean))
+
+levels<-unique(avgt[avgt$entity==plotentity,]$benchmark)
+avgt.labels<-paste(ifelse(grepl("[jJ]son",levels), "json",""),
+                   ifelse(grepl("[aA]rray",levels), "[]",""),
+                   ifelse(grepl("[sS]mile",levels), ":)"," "),
+                   ifelse(grepl("[eE]xt",levels), "ext ","ser "),
+                   ifelse(grepl("[fF]ast",levels), "fst",""),
+                   ifelse(grepl("[cC]ompress",levels), "-c",""),
+                   sep="")
+sd<-unname(with (avgt[avgt$entity==plotentity,], tapply(metric,benchmark,sd)))
+#sd<-sd[!is.na(sd)]
+plot(avgt.longy~avgt.longx,
+     xlab="size (kb)", ylab=plotylabel,
+     xlim=c(60, 300), ylim=c(0.5, 2.85),
+     cex=0.5)
+text(avgt.longx, avgt.longy, avgt.labels, cex=0.62, 
+     adj=c(-0.1,-0.6))
+arrows(avgt.longx, avgt.longy-sd, avgt.longx, avgt.longy+sd, code=0)
