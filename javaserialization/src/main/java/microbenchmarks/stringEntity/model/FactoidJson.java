@@ -7,7 +7,7 @@ import java.io.*;
 import java.time.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 @JsonFormat(shape = Shape.OBJECT)
 public final class FactoidJson

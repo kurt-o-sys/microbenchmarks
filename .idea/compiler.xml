@@ -27,8 +27,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaserialization" target="1.6" />
-      <module name="objectcreation" target="1.6" />
+      <module name="javaserialization" target="1.8" />
+      <module name="objectcreation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

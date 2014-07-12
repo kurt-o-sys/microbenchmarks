@@ -3,7 +3,7 @@ package microbenchmarks;
 import org.openjdk.jmh.runner.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 public class RunBenchmarks {
 

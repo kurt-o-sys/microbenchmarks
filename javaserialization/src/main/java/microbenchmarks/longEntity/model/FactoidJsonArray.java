@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonFormat.*;
 import java.time.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 @JsonFormat(shape = Shape.ARRAY)
 @JsonPropertyOrder(alphabetic = true)

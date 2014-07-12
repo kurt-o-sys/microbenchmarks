@@ -4,7 +4,7 @@ import java.io.*;
 import java.time.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 public class FactoidStringConstructor
       implements Serializable

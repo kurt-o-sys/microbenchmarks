@@ -6,7 +6,7 @@ import org.openjdk.jmh.runner.*;
 import java.io.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 public class JsonArrayExternalize
       extends BenchmarkSerialize

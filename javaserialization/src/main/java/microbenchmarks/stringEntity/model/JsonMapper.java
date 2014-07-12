@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.dataformat.smile.*;
 
 /**
- * Created by kurt on 22/06/14.
+ * Created by qsys on 22/06/14.
  */
 public final class JsonMapper {
 

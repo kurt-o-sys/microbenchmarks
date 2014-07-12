@@ -1,7 +1,7 @@
 library("rjson")
 
 results<-data.frame()
-setwd("/home/kurt/dev/microbenchmarks/javaserialization/src/main/results")
+setwd("/home/qsys/dev/microbenchmarks/javaserialization/src/main/results")
 
 for (t in c(1,2,4)) {
 
